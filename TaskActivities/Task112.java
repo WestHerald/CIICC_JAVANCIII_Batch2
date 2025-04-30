@@ -1,3 +1,4 @@
+package TaskActivities;
 public class Task112 {
     class ArithmeticTask {
 
