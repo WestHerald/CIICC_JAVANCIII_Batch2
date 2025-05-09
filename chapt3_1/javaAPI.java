@@ -1,4 +1,6 @@
 package chapt3_1;
+import java.util.ArrayList;
+
 public class javaAPI {
 
     public static void main(String[] args) {
@@ -29,5 +31,18 @@ public class javaAPI {
         String z = " Hello World".trim();
         System.out.println(x == z);
         System.out.println(x.equals(z));
+
+        ArrayList list1 = new ArrayList<>();
+        list1.add("Yes");
+        list1.add("No");
+        list1.add(12);
+        System.out.println(list1);
+
+        ArrayList<Integer> list2 = new ArrayList<>();
+        list2.add(22);
+        list2.add(null);
+        list2.remove(1);
+        list2.add(69);
+        System.out.println(list2);
     }
 }
