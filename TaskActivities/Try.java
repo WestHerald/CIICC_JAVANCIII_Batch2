@@ -10,4 +10,18 @@ public class Try {
         // System.out.print("2");
 
     }
+    public void moreG(String[] values, int[] nums) {}
+
+    public int howMany(boolean b, boolean... b2) {
+        return b2.length;
+
+    }
+
+    public void getHowMany () {
+        howMany(true);
+    }
+
 }
+
+
+// horrible grade omg https://docs.google.com/forms/d/e/1FAIpQLSeFDtxVH3k05KKlt-JztWlznlto0MzHeTi0krQcKwZeyEJbXw/viewscore?viewscore=AE0zAgAp1an2mVBN0lHpyiEQ9G_TuV1b9ag_sGQwMK4mn1ExUvcwJfUuOuK-XD_i9Y5X4KQ

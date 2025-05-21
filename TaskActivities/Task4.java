@@ -1,8 +1,6 @@
-package taskActivities;
-
 import java.util.Scanner;
 
-public class PalindroneToStringBuilder {
+public class Task4 {
     public static void main(String[] args) {
         Scanner wordInput = new Scanner(System.in);
         System.out.print("Enter a word: ");

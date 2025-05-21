@@ -20,6 +20,22 @@ public static void main(String[] args) {
     new Lion().roar(roar1, roar2);
     System.out.println(roar1 + " " + roar2);
 
+    String s1 = "Hello";
+    String t = new String(s1);
+    if ("Hello".equals(s1)) System.out.println("one");
+    if (t == s1) System.out.println("two");
+    if (t.equals(s1)) System.out.println("three");
+    if ("Hello" == s1) System.out.println("four");
+    if ("Hello" == t) System.out.println("five");
+
+    // String s11 = "java";
+    // StringBuilder s2 = new StringBuilder("java");
+    // if (s11 == s2)
+    // System.out.print("1");
+    // if (s11.equals(s2))
+    // System.out.print("2");
+
+
     String numbers = "012345678";
     System.out.println(numbers.substring(1, 3));
     System.out.println(numbers.substring(7, 7));
@@ -81,8 +97,8 @@ public static void main(String[] args) {
     System.out.println(array[0]);
 
     // String [] names = {"Tom", "Dick", "Harry"};
-    // List<String> list = names.asList();
-    // list.set(0, "Sue");
+    // List<String> list2 = names.asList();
+    // list2.set(0, "Sue");
     // System.out.println(names[0]);
 
     List<String> one = new ArrayList<String>();
@@ -96,11 +112,11 @@ public static void main(String[] args) {
     else
     System.out.println("C");
 
-    // LocalDate date = LocalDate.parse("2018-04-30", DateTimeFormatter.ISO_LOCAL_DATE);
-    // date.plusDays(2);
-    // // date.plusHours(3);
-    // System.out.println(date.getYear() + " " + date.getMonth() + " "
-    // + date.getDayOfMonth());
+    // LocalDate date1 = LocalDate.parse("2018-04-30", DateTimeFormatter.ISO_LOCAL_DATE);
+    // date1.plusDays(2);
+    // date1.plusHours(3);
+    // System.out.println(date1.getYear() + " " + date1.getMonth() + " "
+    // + date1.getDayOfMonth());
 
     LocalDate date = LocalDate.of(2018, Month.APRIL, 30);
     date.plusDays(2);
@@ -109,11 +125,12 @@ public static void main(String[] args) {
     + date.getDayOfMonth());
 
     LocalDateTime d = LocalDateTime.of(2015, 5, 10, 11, 22, 33);
-    Period p = Period.of(1, 2, 3);
+    Period p = Period.ofDays(1).ofYears(2);
     d = d.minus(p);
-    DateTimeFormatter f = DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT);
-    System.out.println(d.format(f));
-
+    DateTimeFormatter f = DateTimeFormatter.ofLocalizedDateTime(FormatStyle
+    .SHORT);
+    System.out.println(f.format(d));
     // https://docs.google.com/forms/d/e/1FAIpQLSft2SGwMkrxLGT6b80Hzm6OSowcjhPfBsrvDQeOEUYd2Q7pOQ/viewscore?pli=1&pli=1&viewscore=AE0zAgDzu2uoj3ulLAXBwa6P4xCnpAbve7czlaQfxzjZ1eLh_PlKgnJOGcYtp0ZVz_S13SY
+    // https://docs.google.com/forms/d/e/1FAIpQLSft2SGwMkrxLGT6b80Hzm6OSowcjhPfBsrvDQeOEUYd2Q7pOQ/viewscore?viewscore=AE0zAgDSuPWxSQGAoJG8VbpUV0VvkCmviw7AOLFz-AYbmCQMJVJXTt-_jCYA8pXO-_83a4s
 }  
 }
