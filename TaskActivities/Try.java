@@ -1,5 +1,8 @@
-
-
+public class Try { 
+ 
+ public static void main(String[] args) { 
+ System.out.println(5/0);
+ } } 
 // public class Try {
 //     public static void main(String[] args) {
 //         // String s1 = "java";
@@ -26,10 +29,5 @@
 
 // horrible grade omg https://docs.google.com/forms/d/e/1FAIpQLSeFDtxVH3k05KKlt-JztWlznlto0MzHeTi0krQcKwZeyEJbXw/viewscore?viewscore=AE0zAgAp1an2mVBN0lHpyiEQ9G_TuV1b9ag_sGQwMK4mn1ExUvcwJfUuOuK-XD_i9Y5X4KQ
 
-public interface Try { 
- void fly(); 
-} 
- interface HasWings { 
- public abstract Object getWindSpan(); 
- } 
- abstract class Falcon implements Try, HasWings {}  
+
+ 

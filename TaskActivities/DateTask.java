@@ -1,5 +1,3 @@
-package taskActivities;
-
 public class DateTask {
    // instance variables
  private byte day;

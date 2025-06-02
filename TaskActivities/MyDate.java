@@ -1,6 +1,3 @@
-package taskActivities;
-
-import taskActivities.DateTask;
 public class MyDate {
     public static void main(String[] args) {
         DateTask date1 = new DateTask(1, 1, 1978);
