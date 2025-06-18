@@ -29,5 +29,5 @@ public class Try {
 
 // horrible grade omg https://docs.google.com/forms/d/e/1FAIpQLSeFDtxVH3k05KKlt-JztWlznlto0MzHeTi0krQcKwZeyEJbXw/viewscore?viewscore=AE0zAgAp1an2mVBN0lHpyiEQ9G_TuV1b9ag_sGQwMK4mn1ExUvcwJfUuOuK-XD_i9Y5X4KQ
 
-
+// not bad but not good result on programming mock assessment 32 out of what 78 https://docs.google.com/forms/d/e/1FAIpQLScRxBKW0IiDT4SeKcRTpQspVJE_xYADb6NgUMxi-3Hl3-yfGA/viewscore?viewscore=AE0zAgAKmwdQjAuOLpnpQ1VWoqXTwwW7lOMl2gfDQLNGlXU4s3cMZ7tcjRiiQRWuyw
  
